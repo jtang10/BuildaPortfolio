@@ -12,13 +12,41 @@ body {
     font-weight: 100
 }
 
-.title-super {
-    font-size: 60px;
+@media screen and (min-width: 991px) {
+    h1 {
+        font-size: 60px;
+    }
+    h3 {
+        font-size: 24px;
+    }
+    .title-logo {
+    margin-top: 20px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 990px) {
+    h1 {
+        font-size: 40px;
+    }
+    h3 {
+        font-size: 20px;
+    }
+    .title-logo {
+    margin-top: 20px;
+    }
+}
+@media screen and (max-width: 767px) {
+    h1 {
+        font-size: 24px;
+    }
+    h3 {
+        font-size: 16px;
+        padding: 5px;
+    }
+    .title-logo {
+    padding: 20px;
+    }
 }
 
-.title-logo {
-    margin-top: 20px;
-}
 
 .title-row {
     width: 100%
